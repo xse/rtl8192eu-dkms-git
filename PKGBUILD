@@ -1,7 +1,7 @@
 # Maintainer: xse <183953+xse@users.noreply.github.com>
 # TODO : use pkgver(), .SRCINFO and so on
 
-pkgname=rtl8192eu-dkms
+pkgname=rtl8192eu-dkms-git
 _pkgname=${pkgname%-*}
 pkgver=4.4.1
 pkgrel=1
