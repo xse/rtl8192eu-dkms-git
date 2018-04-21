@@ -2,7 +2,8 @@
 # TODO : use pkgver(), .SRCINFO and so on
 
 pkgname=rtl8192eu-dkms-git
-_pkgname=${pkgname%-*}
+__pkgname=${pkgname%-*}
+_pkgname=${__pkgname%-*}
 pkgver=4.4.1
 pkgrel=1
 pkgdesc="Kernel module for Realtek8192eu wireless thingy (dkms)"
